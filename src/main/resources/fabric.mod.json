@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "siftdimensionmod",
+  "version": "1.0.0",
+  "name": "Sift Dimension Mod",
+  "description": "Adds a new dimension called the Sift Dimension to Minecraft.",
+  "authors": [
+    "asbuildingdesign"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.asbuildingdesign.siftdimensionmod.SiftDimensionMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4",
+    "fabric-api": "*"
+  }
+}
